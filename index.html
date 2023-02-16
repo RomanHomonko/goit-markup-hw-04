@@ -21,7 +21,7 @@
                     rel="noopener noreferrer nofollow"><span class="web">WEB</span>STUDIO</a>
                 <ul class="header-list list">
                     <li class="header-item">
-                    <a class="header-link" href="#">Studio</a></li>
+                    <a class="header-link emphasis" href="#">Studio</a></li>
                     <li class="header-item">
                     <a class="header-link" href="./portfolio.html">Portfolio</a></li>
                 <li class="header-item">
@@ -40,7 +40,7 @@
         <section class="hero studio" >
             <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                    <button class="hero-button" type="button"><span class="button-text">Order Service</span></button>
+                    <button data-modal-open class="hero-button" type="button"><span class="button-text">Order Service</span></button>
             </div>
         </section>
         <!-- SECTION 2 STRATEGY-->
@@ -357,5 +357,16 @@
             </div>
         </div>
     </footer>
+         <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button data-modal-close class="modal-button" type="button">
+                    <svg class="modal-icon" width="8" heidht="8">
+                        <use href="./images/symbol-defs.svg#icon-Vector"></use>
+                    </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
